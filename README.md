@@ -64,7 +64,7 @@ If you need to add the application as an exception to your Mac OS security, perf
 
         ./geth --datadir node2 --unlock "0x3C17F1DABb2185D9Ad10de5bCC6795a8F24463b2" --mine --port 30304 --bootnodes "enode://YOURENODEHERE@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 
-Your blockchain is now activated! You will see data similar to the following in your terminal. ![Node2 Working](Screenshots/Node2-working.png)
+Your blockchain is now activated! You will see data similar to the following in your terminal. ![Node2 Working](Screenshots/Node2-working.PNG)
 Things to know:
 
 
@@ -81,9 +81,9 @@ Things to know:
     Because this is a test network, the password used for keystore files for both nodes is 'admin'.
 
 ## Connecting to MyCrypto
-You will use the keystore file for the testnet to login to MyCrypto.![Unlock Using Keystore](Screenshots/Unlock-using-Keystore.png) 
+You will use the keystore file for the testnet to login to MyCrypto.![Unlock Using Keystore](Screenshots/Unlock-using-Keystore.PNG) 
 
-A keystore is a file where private keys, certificates, etc. can be stored and is used to identify the user. It is located in the Blockchain-Tools file.![Locating Keystore File](Screenshots/locating-keystore-file.png) In MyCrypto:
+A keystore is a file where private keys, certificates, etc. can be stored and is used to identify the user. It is located in the Blockchain-Tools file.![Locating Keystore File](Screenshots/locating-keystore-file.PNG) In MyCrypto:
 1. Select 'Unlock your Keystore File'
 2. Navigate to the Blockchain-Test folder. 
 3. Select the node you want to test send a transaction from, and open the keystore file. Enter the node password. You are now ready to set up your network in MyCrypto.
@@ -94,7 +94,7 @@ To set up your network:
 
 1. Navigate to 'Change Network' at the bottom of the left panel. 
 
-    ![Change Network](Screenshots/change-network.png)
+    ![Change Network](Screenshots/change-network.PNG)
 
 2. Scroll to the bottom of the panel and select '+Add Custom Node'
 3. Enter 'zbanktest' as your Node Name.
@@ -112,12 +112,12 @@ To test sending and receiving Ethereum in MyCrypto:
 
 1. Log-in with the Keystore file (which contains your private key) and password.
 2. Under Select choose 'Send Ether and Tokens'
-    ![Send Eth](Screenshots/Send-ETH.png)
+    ![Send-Eth](Screenshots/Send-ETH.PNG)
 3. Enter the address you want to send coins to (the opposite of the node you used to login).
 4. Check your balance. Enter the amount of Ethereum, and the fee you want to pay to send. 
 5. At the bottom of the page, you will see a link to check your transaction status and metadata that shows ETH, address, and fee information. 
 
-    ![Transaction Metadata](Screenshots/Transaction-Metadta.png)
+    ![Transaction-Metadta](Screenshots/Transaction-Metadta.PNG)
 
 **To STOP the block chain hit CTRL + C in the terminal (once for each node) and the blockchain will deactivate.**
 
